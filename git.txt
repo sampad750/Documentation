@@ -21,3 +21,19 @@
 -> git add --all অথবা -> git add .
 ০৯. গিট এ file/folder add করার পর commit করার জন্য
 -> git commit -m "commit text type here"
+১০. সব গুলা git commit দেখার জন্য
+-> git log অথবা -> git log --oneline (short করে দেখার জন্য)
+১১. মনে করুন ৩টি কাজ করলেন ৩টি commit করলেন ৩টি commit number পরবে। মনে করতেছেন প্রথম ২টি কাজ ঠিক আছে ৩য় commit এর যে কাজগুলি করছেন তা ভুল হয়েছে। তাহলে ২য় commit এ যেতে
+-> git checkout commit_number (মানে যে commit stage এ যেতে চাই তার commit number দিলেই চলে যাবে)
+নোটঃ আবার শেষ commit এ যেতে
+-> git checkout master
+১২. আপনি last যে change টা করেছেন শুধু তা দেখার জন্য ( last commit থেকে latest যে change হয়েছে তা )
+-> git diff
+১৩. একটি নির্দিষ্ট commit এ কি change হয়েছে তা দেখার জন্য
+-> git show commit_number
+১৪. প্রথম commit থেকে ২য় commit কি change হয়েছে তা দেখার জন্য
+-> git commit diff commit_1st commit_2nd
+১৫. গিট project থেকে একটি file delete করতে (commit থেকে / সবকিছু থেকে)
+-> git rm file_name.txt
+delete করা file status থেকে ও বাদ দিতে
+-> git reset HEAD file_name.txt
