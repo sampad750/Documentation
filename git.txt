@@ -1,0 +1,23 @@
+০১. গিট আপনার pc তে ঠিকমত install হয়েছে কি না তা জানতে command prompt গিয়ে
+>git --version
+০২. কোন folder git initialize করতে (.git নামে একটা folder তৈরি হবে)
+-> git init
+০৩. গিট এ user name/email global এবং প্রত্যেকটা project এর জন্য আলাদা আলাদা করে set করতে
+==global==
+->git config --global user.name "name"
+-> git config --global user-email "youremail.com"
+==one project==
+->git config user.name "name"
+-> git config user-email "youremail.com"
+০৪. গিট এ user name/email জানতে
+-> git config --list
+০৫. command line clean করার জন্য
+-> clear
+০৬. গিট এর file/folder track/untrack অবস্তা জানতে
+-> git status
+০৭. কোন file কে unstage থেকে stage করতে / file টি add করতে
+-> git add filename.txt
+০৮. কোন project এর সব file কে unstage থেকে stage করতে / সব file add করতে
+-> git add --all অথবা -> git add .
+০৯. গিট এ file/folder add করার পর commit করার জন্য
+-> git commit -m "commit text type here"
