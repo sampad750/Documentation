@@ -1,7 +1,9 @@
 ০১. গিট আপনার pc তে ঠিকমত install হয়েছে কি না তা জানতে command prompt গিয়ে
 >git --version
+
 ০২. কোন folder git initialize করতে (.git নামে একটা folder তৈরি হবে)
 -> git init
+
 ০৩. গিট এ user name/email global এবং প্রত্যেকটা project এর জন্য আলাদা আলাদা করে set করতে
 ==global==
 ->git config --global user.name "name"
@@ -9,36 +11,54 @@
 ==one project==
 ->git config user.name "name"
 -> git config user-email "youremail.com"
+
 ০৪. গিট এ user name/email জানতে
 -> git config --list
+
 ০৫. command line clean করার জন্য
 -> clear
+
 ০৬. গিট এর file/folder track/untrack অবস্তা জানতে
 -> git status
+
 ০৭. কোন file কে unstage থেকে stage করতে / file টি add করতে
 -> git add filename.txt
+
 ০৮. কোন project এর সব file কে unstage থেকে stage করতে / সব file add করতে
 -> git add --all অথবা -> git add .
+
 ০৯. গিট এ file/folder add করার পর commit করার জন্য
 -> git commit -m "commit text type here"
+
 ১০. সব গুলা git commit দেখার জন্য
 -> git log অথবা -> git log --oneline (short করে দেখার জন্য)
+
 ১১. মনে করুন ৩টি কাজ করলেন ৩টি commit করলেন ৩টি commit number পরবে। মনে করতেছেন প্রথম ২টি কাজ ঠিক আছে ৩য় commit এর যে কাজগুলি করছেন তা ভুল হয়েছে। তাহলে ২য় commit এ যেতে
 -> git checkout commit_number (মানে যে commit stage এ যেতে চাই তার commit number দিলেই চলে যাবে)
 নোটঃ আবার শেষ commit এ যেতে
 -> git checkout master
+
 ১২. আপনি last যে change টা করেছেন শুধু তা দেখার জন্য ( last commit থেকে latest যে change হয়েছে তা )
 -> git diff
+
 ১৩. একটি নির্দিষ্ট commit এ কি change হয়েছে তা দেখার জন্য
 -> git show commit_number
+
 ১৪. প্রথম commit থেকে ২য় commit কি change হয়েছে তা দেখার জন্য
 -> git commit diff commit_1st commit_2nd
+
 ১৫. গিট project থেকে একটি file delete করতে (commit থেকে / সবকিছু থেকে)
 -> git rm file_name.txt
 delete করা file status থেকে ও বাদ দিতে
 -> git reset HEAD file_name.txt
+
 ১৬. কোন file কে command এ open করতে হলে
 -> git vim file_name.txt
+
+১৭. github থেকে কোন project আপনার local server এ clone করতে হলে 
+-> git clone https://github.com/sampad750/PHP.git
+project file টি অন্য কোন name এ করতে হলে
+-> git clone https://github.com/sampad750/PHP.git project_name
 
 00. বার বার code push/clone করতে বার বার user name/password দিতে না হয় তার ঊপায়
 SSH keys method
