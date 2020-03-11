@@ -37,7 +37,10 @@
 -> git rm file_name.txt
 delete করা file status থেকে ও বাদ দিতে
 -> git reset HEAD file_name.txt
-১৬. বার বার code push/clone করতে বার বার user name/password দিতে না হয় তার ঊপায়
+১৬. কোন file কে command এ open করতে হলে
+-> git vim file_name.txt
+
+00. বার বার code push/clone করতে বার বার user name/password দিতে না হয় তার ঊপায়
 SSH keys method
 -> ssh-keygen -t rsa -b 4096 -c "email_name@gamil.com"
 
