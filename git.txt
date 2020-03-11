@@ -60,6 +60,11 @@ delete করা file status থেকে ও বাদ দিতে
 project file টি অন্য কোন name এ করতে হলে
 -> git clone https://github.com/sampad750/PHP.git project_name
 
+১৮. github এর project local server এ আনতে 
+-> git fetch 
+-> git pull
+
+
 00. বার বার code push/clone করতে বার বার user name/password দিতে না হয় তার ঊপায়
 SSH keys method
 -> ssh-keygen -t rsa -b 4096 -c "email_name@gamil.com"
