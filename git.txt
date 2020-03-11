@@ -64,6 +64,25 @@ project file টি অন্য কোন name এ করতে হলে
 -> git fetch 
 -> git pull
 
+১৯. local server থেকে github আনতে 
+-> git status
+-> git add .
+-> git commit -m "commit_text"
+-> git push
+
+২০. git branch 
+git branch তৈরি করতে
+-> git branch branch_name
+কয়টা branch আছে জানতে
+-> git branch
+এক branch থেকে অন্য branch এ যেতে 
+-> git checkout branch_name
+branch তৈরি করার সাথে সাথে ওই branch এ switch করতে
+-> git checkout -b branch_name
+অন্য branch এর কাজ master branch এ আনতে
+-> git merge branch_name (যে branch টা আনব ওই branch এর নাম)(master branch এ switch করা থাকতে হবে)
+branch delete করতে হলে
+-> git branch -D branch_name 
 
 00. বার বার code push/clone করতে বার বার user name/password দিতে না হয় তার ঊপায়
 SSH keys method
