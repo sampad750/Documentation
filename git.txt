@@ -68,6 +68,7 @@ project file টি অন্য কোন name এ করতে হলে
 -> git status
 -> git add .
 -> git commit -m "commit_text"
+-> git remote add origin https://github.com/sampad750/Plugins.git // প্রথম location set করতে। 
 -> git push
 
 ২০. git branch 
