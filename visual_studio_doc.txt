@@ -1,0 +1,3 @@
+Extension for php developer
+1. PHP Intelephense
+2. PHP IntelliSense
